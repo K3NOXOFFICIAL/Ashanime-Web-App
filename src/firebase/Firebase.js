@@ -10,14 +10,16 @@ import { setUser } from "../redux/google-slice";
 //import { firebaseConfig } from "./firebaseConfig";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAphIaC60oNR94M1SX0LUAd1SnxxFOwc08",
-  authDomain: "tibo-e1c6d.firebaseapp.com",
-  projectId: "tibo-e1c6d",
-  storageBucket: "tibo-e1c6d.appspot.com",
-  messagingSenderId: "784329066367",
-  appId: "1:784329066367:web:58d6e0e6c04e60a89d3c4a",
-  measurementId: "G-VSPWTJWSH8"
+  apiKey: "AIzaSyBw6omUq-xqkj4NWtZchDTCqZolxyJf-f4",
+  authDomain: "anime-beta-75ce4.firebaseapp.com",
+  databaseURL: "https://anime-beta-75ce4-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "anime-beta-75ce4",
+  storageBucket: "anime-beta-75ce4.appspot.com",
+  messagingSenderId: "7065378517",
+  appId: "1:7065378517:web:59e880df0e723153ca8c5c",
+  measurementId: "G-M86V52CF1Q"
 };
+
 const envValue = process.env.REACT_APP_FIREBASE_CONFIG;
 
 // Initialize Firebase
