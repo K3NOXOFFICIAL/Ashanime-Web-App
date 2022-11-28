@@ -238,7 +238,7 @@ export default function MobileNav({ paginate }: props) {
                       onClick={handleClickBookmarks}
                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      My Watchlist
+                      Watchlist
                     </div>
                   </div>
                 </div>
@@ -388,7 +388,7 @@ export default function MobileNav({ paginate }: props) {
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-center font-medium"
                   onClick={handleClickBookmarks}
                 >
-                  My Watchlist
+                  Watchlist
                 </Disclosure.Button>
               </div>
               <div className="pl-3 pb-3 border-t border-gray-700">

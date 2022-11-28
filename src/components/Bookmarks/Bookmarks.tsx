@@ -103,7 +103,7 @@ const Bookmarks = () => {
             <div className=" ml-6 mb-4">
               <h1 className="outfit-light text-orange-300 text-[32px]">
                 {bookmarks.length > 0
-                  ? "My Watchlist"
+                  ? "Watchlist"
                   : "Build your watchlist by checking out some anime!"}
               </h1>
             </div>
