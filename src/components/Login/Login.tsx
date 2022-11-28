@@ -52,13 +52,13 @@ const Login = () => {
             <img className="lg:h-16 h-12" src={logo} alt="logo" />
           </div>
           <h2 className="text-white outfit-medium lg:text-[28px] text-[24px] lg:mb-6 mb-6 flex flex-col items-center">
-            Stream Anime
+            Anime Streamen
             <p className="text-redor outfit-medium lg:text-[28px] text-[24px]">
-              &nbsp;No Ads
+              &nbsp;Ohne Werbung
             </p>
           </h2>
           <h3 className="text-white outfit-medium lg:text-[32px] text-[24px] lg:mb-6 mb-6">
-            Login
+            Einloggen
           </h3>
 
           {/*username and password fields*/}
@@ -68,7 +68,7 @@ const Login = () => {
                 htmlFor="email"
                 className="block text-sm font-medium text-white"
               >
-                Email address
+                E-mail addresse
               </label>
               <div className="mt-1">
                 <input
@@ -88,7 +88,7 @@ const Login = () => {
                 htmlFor="password"
                 className="block text-sm font-medium text-white"
               >
-                Password
+                Passwort
               </label>
               <div className="mt-1">
                 <input
@@ -109,7 +109,7 @@ const Login = () => {
                   to="/forgot-password"
                   className="font-medium text-white hover:brightness-200"
                 >
-                  Forgot your password?
+                  Passwort vergessen?
                 </Link>
               </div>
             </div>
@@ -120,7 +120,7 @@ const Login = () => {
                 onClick={handleSubmit}
                 className="w-full flex justify-center py-2 mb-4 px-4 border border-transparent rounded-md shadow-sm text-sm outfit-medium text-white bg-redor hover:brightness-125 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Sign in
+                Einloggen
               </button>
             </div>
           </form>
@@ -131,12 +131,12 @@ const Login = () => {
               </div>
               <div className="relative flex justify-center text-sm">
                 <span className="px-2 text-white page-bg">
-                  Or continue with
+                  Oder fortfahren mit
                 </span>
               </div>
             </div>
             <div className="w-full mt-4">
-              <LoginButton content="Login with Google" />
+              <LoginButton content="Mit Google Einloggen" />
               <button
                 type="button"
                 onClick={async () => {
@@ -144,19 +144,19 @@ const Login = () => {
                 }}
                 className="w-full flex justify-center py-2 mb-4 px-4 border border-transparent rounded-md shadow-sm text-sm outfit-medium text-white bg-redor hover:brightness-125 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Sign in anonymously
+                Weiter ohne Konto
               </button>
             </div>
             {/*  SIGN UP NOW*/}
             <div className="flex justify-center items-center">
               <div className="outfit-medium text-white text-[16px]">
-                <span>New to Ashanime?</span>
+                <span>Neu bei K3NOX Anime?</span>
                 <br />
                 <a
                   href="/register"
                   className="font-medium flex justify-center text-redor hover:brightness-200"
                 >
-                  Sign up now
+                  Konto Erstellen
                 </a>
               </div>
             </div>
