@@ -166,7 +166,7 @@ const Navbar = ({ paginate }: props) => {
             className="flex items-center"
           >
             <h3 className=" xl:text-[16px] lg:text-[12px] whitespace-nowrap outfit-medium text-concrete hover:text-white transition-colors duration-200 cursor-pointer">
-              My Watchlist
+              Watchlist
             </h3>
           </div>
         </div>
