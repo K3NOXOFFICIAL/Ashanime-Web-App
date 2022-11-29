@@ -48,10 +48,10 @@ const Login = () => {
     <section className="login-background md:h-screen flex justify-center items-center">
       <div className="flex flex-col gap-32 lg:gap-0 items-center justify-center lg:h-screen">
         <div className="flex flex-col justify-center items-center h-auto lg:w-96 w-80 bg-whole-page rounded-2xl">
-          <div className=" mb-3 mt-3">
+          <div className=" mb-1 mt-3">
             <img className="lg:h-16 h-12" src={logo} alt="logo" />
           </div>
-          <h2 className="text-white outfit-medium lg:text-[28px] text-[24px] lg:mb-6 mb-6 flex flex-col items-center">
+          <h2 className="text-white outfit-medium lg:text-[28px] text-[24px] lg:mb-1 mb-1 flex flex-col items-center">
             Anime Streamen
             <p className="text-redor outfit-medium lg:text-[28px] text-[24px]">
               &nbsp;Ohne Werbung
