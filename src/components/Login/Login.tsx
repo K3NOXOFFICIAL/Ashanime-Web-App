@@ -53,11 +53,9 @@ const Login = () => {
           </div>
           <h2 className="text-white outfit-medium lg:text-[28px] text-[24px] lg:mb-1 mb-1 flex flex-col items-center">
             Anime Streamen
-            <p className="text-redor outfit-medium lg:text-[28px] text-[24px]">
-              &nbsp;Ohne Werbung
-            </p>
+
           </h2>
-          <h3 className="text-white outfit-medium lg:text-[32px] text-[24px] lg:mb-6 mb-6">
+          <h3 className="text-white outfit-medium lg:text-[32px] text-[24px] lg:mb-1 mb-1">
             Einloggen
           </h3>
 
