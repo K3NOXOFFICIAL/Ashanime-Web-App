@@ -7,7 +7,8 @@ import {
   signInAnonymously,
 } from "firebase/auth";
 import { setUser } from "../redux/google-slice";
-//import { firebaseConfig } from "./firebaseConfig";
+import { firebaseConfig } from "./firebaseConfig";
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyBw6omUq-xqkj4NWtZchDTCqZolxyJf-f4",
