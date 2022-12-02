@@ -1,7 +1,7 @@
-<p align="center"><img src="https://i.ibb.co/LSpM063/Asset-4.png" width="175"/></p>
-<h3 align="center" > Ashanime - Ad-free Anime<h3/>
+<p align="center"><img src="https://k3nox.de/assets/images/image-128x51.png" width="175"/></p>
+<h3 align="center" > K3NOX-Anime - Ad-free Anime<h3/>
 
-<p align="center">  Ashanime is an Ad free responsive web application built with the intention of providing a pleasent anime experience. <p/>
+<p align="center">  K3NOX-Anime is an Ad free responsive web application built with the intention of providing a pleasent anime experience. <p/>
 
 <p align="center"> Don't forget to 🌟 this repo for updates! <p/>
 
