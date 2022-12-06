@@ -474,8 +474,7 @@ vm-player {
     }
 
     .continue-height {
-    /*height of continue watching*/
-        height: 26rem;
+        height: 24rem;
     }
 
     .popular-height {
