@@ -45,8 +45,8 @@ font-family: outfit-medium, sans-serif;
     /*style background image*/
     
    /* background-image: url("./assets/login-background.webp");  */
-   background-image: url("https://media.tenor.com/1Zx-xg0eTnkAAAAd/demon-slayer.gif");
-    background-size: cover;
+   background-image: url("./assets/login-background.webp");
+   background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
