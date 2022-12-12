@@ -7,18 +7,7 @@ import {
   signInAnonymously,
 } from "firebase/auth";
 import { setUser } from "../redux/google-slice";
-//import { firebaseConfig } from "./firebaseConfig";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBw6omUq-xqkj4NWtZchDTCqZolxyJf-f4",
-  authDomain: "anime-beta-75ce4.firebaseapp.com",
-  databaseURL: "https://anime-beta-75ce4-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "anime-beta-75ce4",
-  storageBucket: "anime-beta-75ce4.appspot.com",
-  messagingSenderId: "7065378517",
-  appId: "1:7065378517:web:59e880df0e723153ca8c5c",
-  measurementId: "G-M86V52CF1Q"
-};
+import { firebaseConfig } from "./firebaseConfig";
 
 
 const envValue = process.env.REACT_APP_FIREBASE_CONFIG;
