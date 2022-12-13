@@ -645,7 +645,14 @@ vm-player {
 }
 
 
-          /*    Forced Styles do not disturb     */
+           /*    Forced Styles do not disturb     */
+
+#root > div {
+    overflow:hidden;
+    /*    Fix Body Overflow   */
+
+}
+
 
 #root > div > div > section > div::before {
 
@@ -664,8 +671,8 @@ vm-player {
 
 /*      background of login main panel   */
 .bg-whole-page {
-    --tw-bg-opacity: 0.6;
-    /* background-color: rgb(16 20 30/var(--tw-bg-opacity)); */
+    --tw-bg-opacity: 0.8;
+    /*background-color: rgb(16 20 30/var(--tw-bg-opacity));  */
     backdrop-filter: blur(32px);
 }
 
@@ -674,7 +681,8 @@ vm-player {
 
 /*    Logo of login page     */
 
-@media (min-width: 1024px)
+@media (min-width: 1024px) {
 .lg\:h-16 {
-    height: 2.8rem;
+    height: 2.9rem !important;
+}
 }
