@@ -665,7 +665,7 @@ vm-player {
 /*      background of login main panel   */
 .bg-whole-page {
     --tw-bg-opacity: 0.6;
-    background-color: rgb(16 20 30/var(--tw-bg-opacity));
+    /* background-color: rgb(16 20 30/var(--tw-bg-opacity)); */
     backdrop-filter: blur(32px);
 }
 
