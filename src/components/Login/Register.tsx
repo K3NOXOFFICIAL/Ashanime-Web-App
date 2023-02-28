@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setUser } from "../../redux/google-slice";
 import { useNotification } from "../../hooks/useNotification";
 import { useNavigate } from "react-router";
+import ReactGA from "react-ga";
 
 const Register = () => {
   // password and confirm password must match
