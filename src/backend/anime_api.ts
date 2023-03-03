@@ -11,7 +11,7 @@ const AnimeProviders = {
 export type AnimeProvider = keyof typeof AnimeProviders;
 
 export class AnimeApi {
-  host = "https://gogoanime.consumet.stream";
+  host = "api.consumet.org";
   provider;
 
   constructor(provider: AnimeProvider = "GOGO") {
