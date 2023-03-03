@@ -11,7 +11,7 @@ const AnimeProviders = {
 export type AnimeProvider = keyof typeof AnimeProviders;
 
 export class AnimeApi {
-  host = "https://march-api.vercel.app/";
+  host = "https://ashanime-api.vercel.app";
   provider;
 
   constructor(provider: AnimeProvider = "GOGO") {
