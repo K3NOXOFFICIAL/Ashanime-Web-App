@@ -14,7 +14,7 @@ export class AnimeApi {
   host = "https://test-api-alpha-weld.vercel.app";
   provider;
 
-  constructor(provider: AnimeProvider = "GOGO") {
+  constructor(provider: AnimeProvider = "ZORO") {
     this.provider = AnimeProviders[provider];
   }
 
