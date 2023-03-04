@@ -11,10 +11,10 @@ const AnimeProviders = {
 export type AnimeProvider = keyof typeof AnimeProviders;
 
 export class AnimeApi {
-  host = "https://test-api-alpha-weld.vercel.app";
+  host = "https://march-api.vercel.app";
   provider;
 
-  constructor(provider: AnimeProvider = "ZORO") {
+  constructor(provider: AnimeProvider = "ANIMEPAHE") {
     this.provider = AnimeProviders[provider];
   }
 
