@@ -19,7 +19,8 @@ export class AnimeApi {
   }
 
   async consumetApiGetCall(path: string = "", params = {}) {
-    const url = `${this.host}${path.startsWith("/") ? path : `/${path}`}`;
+    const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+    const url = `${proxyUrl}${this.host}${path.startsWith("/") ? path : `/${path}`}`;
     return (
       await axios.get(url, {
         params: {
