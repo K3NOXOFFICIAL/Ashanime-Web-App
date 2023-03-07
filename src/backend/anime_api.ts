@@ -1,9 +1,4 @@
 import axios from "axios";
-import * as cors from "cors-anywhere";
-
-const proxy = cors.createServer({
-  originWhitelist: [],
-});
 
 const AnimeProviders = {
   ANIMEPAHE: "animepahe",
@@ -19,14 +14,14 @@ export class AnimeApi {
   host = "https://k3noxanime-api.vercel.app";
   provider;
 
-  constructor(provider: AnimeProvider = "ANIMEPAHE") {
+  constructor(provider: AnimeProvider = "GOGO") {
     this.provider = AnimeProviders[provider];
   }
 
   async consumetApiGetCall(path: string = "", params = {}) {
     const url = `${this.host}${path.startsWith("/") ? path : `/${path}`}`;
     return (
-      await axios.get(proxy(url), {
+      await axios.get(url, {
         params: {
           provider: this.provider,
           ...params,
