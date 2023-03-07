@@ -5,13 +5,12 @@ const AnimeProviders = {
   GOGO: "gogoanime",
   ZORO: "zoro",
   ENIME: "enime",
-  CRUNCHYROLL: "crunchyroll",
 };
 
 export type AnimeProvider = keyof typeof AnimeProviders;
 
 export class AnimeApi {
-  host = "https://k3noxanime-api.vercel.app";
+  host = "https://api.consumet.org";
   provider;
 
   constructor(provider: AnimeProvider = "GOGO") {
@@ -19,8 +18,7 @@ export class AnimeApi {
   }
 
   async consumetApiGetCall(path: string = "", params = {}) {
-    const corsProxyUrl = "https://cors-anywhere.herokuapp.com/";
-    const url = `${corsProxyUrl}${this.host}${path.startsWith("/") ? path : `/${path}`}`;
+    const url = `${this.host}${path.startsWith("/") ? path : `/${path}`}`;
     return (
       await axios.get(url, {
         params: {
@@ -30,8 +28,6 @@ export class AnimeApi {
       })
     ).data;
   }
-
-
 
   async advancedSearch(params = {}) {
     return this.consumetApiGetCall("/meta/anilist/advanced-search", params);
