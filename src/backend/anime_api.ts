@@ -19,7 +19,7 @@ export class AnimeApi {
   }
 
   async consumetApiGetCall(path: string = "", params = {}) {
-    const proxyUrl = 'https://cors.proxy.consumet.org';
+    const proxyUrl = 'https://cors.proxy.consumet.org/';
     const url = `${proxyUrl}${this.host}${path.startsWith("/") ? path : `/${path}`}`;
     return (
       await axios.get(url, {
