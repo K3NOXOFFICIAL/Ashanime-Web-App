@@ -1,4 +1,9 @@
 import axios from "axios";
+import * as cors from "cors-anywhere";
+
+const proxy = cors.createServer({
+  originWhitelist: [],
+});
 
 const AnimeProviders = {
   ANIMEPAHE: "animepahe",
@@ -21,7 +26,7 @@ export class AnimeApi {
   async consumetApiGetCall(path: string = "", params = {}) {
     const url = `${this.host}${path.startsWith("/") ? path : `/${path}`}`;
     return (
-      await axios.get(url, {
+      await axios.get(proxy(url), {
         params: {
           provider: this.provider,
           ...params,
