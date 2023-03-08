@@ -95,11 +95,11 @@ export default function ProviderDropdown(modalToggle: any) {
 
   const providers = [
     { name: "Gogoanime", id: "gogoanime" },
-    // { name: "Zoro", id: "zoro" },
+    { name: "Zoro", id: "zoro" },
     // { name: "Anime Fox", id: "animefox" },
     // { name: "Enime", id: "enime" },
     // { name: "AniMixPlay", id: "animixplay" },
-    // { name: "Crunchyroll", id: "crunchyroll" },
+    { name: "Crunchyroll", id: "crunchyroll" },
     // { name: "Animepahe", id: "animepahe" },
   ];
 
