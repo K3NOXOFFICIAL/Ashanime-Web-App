@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        redor: "#FC4747",
+        redor: "#E30B5C",
         "whole-page": "#10141E",
         "blue-gray": "#5A698F",
         "navy-blue": "#161D2F",
