@@ -217,7 +217,7 @@ export default function Player({ option, getInstance }: any) {
       autoSize: false,
       autoOrientation: true,
       title: modalData.title.romaji,
-      volume: 0.5,
+      volume: 1.0,
       isLive: false,
       muted: false,
       autoplay: false,
@@ -249,7 +249,7 @@ export default function Player({ option, getInstance }: any) {
           width: 300,
           html: "Subtitles",
           name: "Subs",
-          tooltip: selectedSubtitle ? selectedSubtitle : "German",
+          tooltip: selectedSubtitle ? selectedSubtitle : "English",
           icon: handleSubtitleIcon(),
           selector: subtitles,
           onSelect: function (item: any) {
