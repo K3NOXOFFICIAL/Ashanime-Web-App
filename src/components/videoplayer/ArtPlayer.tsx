@@ -114,7 +114,7 @@ export default function Player({ option, getInstance }: any) {
     let subtitles: any = [];
     let sIndex = 0;
 
-    if (provider === "zoro" || provider === "crunchyroll") {
+    if (provider === "gogoanime" || provider === "crunchyroll") {
       subtitles.push({
         html: "Show Subs",
         icon: "",
