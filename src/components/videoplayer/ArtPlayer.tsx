@@ -249,7 +249,7 @@ export default function Player({ option, getInstance }: any) {
           width: 300,
           html: "Subtitles",
           name: "Subs",
-          tooltip: selectedSubtitle ? selectedSubtitle : "English",
+          tooltip: selectedSubtitle ? selectedSubtitle : "German",
           icon: handleSubtitleIcon(),
           selector: subtitles,
           onSelect: function (item: any) {
