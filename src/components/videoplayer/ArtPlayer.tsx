@@ -62,7 +62,7 @@ export default function Player({ option, getInstance }: any) {
   // loop over episodeObject.sources and create an array of objects with the url and the video quality
   const handleVideoQualities = () => {
     return streamEpisodeLinkObject.sources.map((source: any) => {
-      if (source.quality === "backup") {
+      if (source.quality === "default") {
         return {
           default: true,
           url: source.url,
@@ -395,7 +395,7 @@ export default function Player({ option, getInstance }: any) {
     }
 
     streamEpisodeLinkObject.sources.map((source: any) => {
-      if (source.quality === "backup") {
+      if (source.quality === "default") {
         art.switchQuality(source.url);
       }
     });
