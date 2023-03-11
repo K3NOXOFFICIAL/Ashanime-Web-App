@@ -86,7 +86,7 @@ export default function SheetStream({ setToggle, toggle, modalId }: props) {
     readUserDataProvider();
     await axios
       .get(
-        `https://k3noxanime-api.vercel.app/meta/anilist/info/${modalId}${
+        `https://k3nox-api.vercel.app/meta/anilist/info/${modalId}${
           provider === "gogoanime" || "zoro" ? "?fetchFiller=true" : ""
         }`,
         {

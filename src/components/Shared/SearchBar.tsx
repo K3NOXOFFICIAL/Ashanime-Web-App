@@ -40,7 +40,7 @@ const SearchBar = () => {
   const getSearch = async () => {
     const convertedGenres = `[${genres.map((genre: any) => `"${genre}"`)}]`;
     await axios
-      .get(`https://k3noxanime-api.vercel.app/meta/anilist/advanced-search`, {
+      .get(`https://k3nox-api.vercel.app/meta/anilist/advanced-search`, {
         params: {
           ...(searchQueryTerm && { query: searchQueryTerm }),
           page: currentPage,

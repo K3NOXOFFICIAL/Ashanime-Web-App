@@ -20,7 +20,7 @@ const Comments = () => {
   const getComments = async () => {
     setLoading(true);
     await axios
-      .get(` https://k3noxanime-api.vercel.app/thread/${streamId}`)
+      .get(` https://k3nox-api.vercel.app/thread/${streamId}`)
       .then((response) => {
         setComments(response.data.comments);
         setLoading(false);

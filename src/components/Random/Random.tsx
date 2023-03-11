@@ -35,7 +35,7 @@ const Random = (classes: props) => {
 
   const getRandom = async () => {
     await axios
-      .get(" https://k3noxanime-api.vercel.app/meta/anilist/random-anime")
+      .get(" https://k3nox-api.vercel.app/meta/anilist/random-anime")
       .then((res) => {
         const data = res.data;
         handleClick(data.id);

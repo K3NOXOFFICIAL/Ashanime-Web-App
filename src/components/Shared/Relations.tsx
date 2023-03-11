@@ -34,7 +34,7 @@ const Relations = ({ getAnimeDetails, setModalId, data, local }: props) => {
       dispatch(searchLoadingAction(true));
       const getSearch = async () => {
         await axios
-          .get(` https://k3noxanime-api.vercel.app/meta/anilist/${title}`, {
+          .get(` https://k3nox-api.vercel.app/meta/anilist/${title}`, {
             params: {
               pagePage: 25,
             },

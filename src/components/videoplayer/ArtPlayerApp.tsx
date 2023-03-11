@@ -40,7 +40,7 @@ const ArtPlayer = (props: props) => {
     setLoading(true);
     await axios
       .get(
-        `https://k3noxanime-api.vercel.app/meta/anilist/watch/${streamEpisode.id}`,
+        `https://api.consumet.org/meta/anilist/watch/${streamEpisode.id}`,
         {
           params: {
             ...(provider && { provider }),
