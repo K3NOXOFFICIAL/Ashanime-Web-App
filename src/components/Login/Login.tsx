@@ -53,11 +53,10 @@ const Login = () => {
             <img className="lg:h-16 h-12" src={logo} alt="logo" />
           </div>
           <h2 className="text-white outfit-medium lg:text-[28px] text-[24px] lg:mb-1 mb-1 flex flex-col items-center">
-            Anime Streamen
-
+            Anime Streaming
           </h2>
           <h3 className="text-white outfit-medium lg:text-[32px] text-[24px] lg:mb-1 mb-1">
-            Einloggen
+            Login
           </h3>
 
           {/*username and password fields*/}
@@ -67,7 +66,7 @@ const Login = () => {
                 htmlFor="email"
                 className="block text-sm font-medium text-white"
               >
-                E-mail addresse
+                Email address
               </label>
               <div className="mt-1">
                 <input
@@ -87,7 +86,7 @@ const Login = () => {
                 htmlFor="password"
                 className="block text-sm font-medium text-white"
               >
-                Passwort
+                Password
               </label>
               <div className="mt-1">
                 <input
@@ -108,7 +107,7 @@ const Login = () => {
                   to="/forgot-password"
                   className="font-medium text-white hover:brightness-200"
                 >
-                  Passwort vergessen?
+                  Forgot your password?
                 </Link>
               </div>
             </div>
@@ -119,7 +118,7 @@ const Login = () => {
                 onClick={handleSubmit}
                 className="w-full flex justify-center py-2 mb-4 px-4 border border-transparent rounded-md shadow-sm text-sm outfit-medium text-white bg-redor hover:brightness-125 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Einloggen
+                Login
               </button>
             </div>
           </form>
@@ -130,12 +129,12 @@ const Login = () => {
               </div>
               <div className="relative flex justify-center text-sm">
                 <span className="px-2 text-white page-bg">
-                  Oder fortfahren mit
+                  Or continue with
                 </span>
               </div>
             </div>
             <div className="w-full mt-4">
-              <LoginButton content="Mit Google Einloggen" />
+              <LoginButton content="Login with Google" />
               <button
                 type="button"
                 onClick={async () => {
@@ -143,19 +142,19 @@ const Login = () => {
                 }}
                 className="w-full flex justify-center py-2 mb-4 px-4 border border-transparent rounded-md shadow-sm text-sm outfit-medium text-white bg-redor hover:brightness-125 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Weiter ohne Konto
+                Continue without an account
               </button>
             </div>
             {/*  SIGN UP NOW*/}
             <div className="flex justify-center items-center">
               <div className="outfit-medium text-white text-[16px]">
-                <span>Neu bei K3NOX Anime?</span>
+                <span>New to K3NOX Anime?</span>
                 <br />
                 <a
                   href="/register"
                   className="font-medium flex justify-center text-redor hover:brightness-200"
                 >
-                  Konto Erstellen
+                  Create an account
                 </a>
               </div>
             </div>

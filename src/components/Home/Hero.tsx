@@ -198,7 +198,7 @@ const Hero = () => {
                         </div>
                       </div>
                       <div className="absolute z-10 w-full h-full">
-                        <div className="dark-gradient-banner rounded-xl absolute w-full h-full" />
+                        <div className="bg-glass rounded-xl absolute w-full h-full" />
                         <div
                           style={{
                             backgroundImage: `url(${anime.cover})`,
