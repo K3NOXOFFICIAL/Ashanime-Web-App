@@ -108,8 +108,8 @@ const Navbar = ({ paginate }: props) => {
 
   return (
     <div
-      className={` invisible lg:visible flex justify-center items-center bg-none dark-gradient-nav transition-all sticky-nav ${
-        scrolled ? "scrolled-nav" : ""
+      className={` invisible lg:visible flex justify-center items-center bg-none transition-all sticky-nav ${
+        scrolled ? "bg-glass" : ""
       }`}
     >
       <div className="flex justify-between items-center py-4 2xl:px-15 xl:px-[4.5rem] lg:px-[2.5rem] lg: 2xl:w-[1920px] w-[1440px] ">

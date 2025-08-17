@@ -663,8 +663,7 @@ vm-player {
     width: 100%;
     height: 100vh;
     /* forced before css panel to apply blur to background   */
-    backdrop-filter: blur(12px);
-    isolation: isolate;
+    backdrop-filter: blur(8px);
     z-index: 0;
 }
 
@@ -672,8 +671,13 @@ vm-player {
 /*      background of login main panel   */
 .bg-whole-page {
     --tw-bg-opacity: 0.8;
-    /*background-color: rgb(16 20 30/var(--tw-bg-opacity));  */
-    backdrop-filter: blur(32px);
+    background-color: rgb(16 20 30/var(--tw-bg-opacity));
+    backdrop-filter: blur(12px);
+}
+
+.bg-glass {
+    background-color: rgba(16, 20, 30, 0.8);
+    backdrop-filter: blur(12px);
 }
 
 
